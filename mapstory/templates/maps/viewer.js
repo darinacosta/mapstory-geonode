@@ -208,7 +208,7 @@ module.controller('viewerController', function($scope, $location, $injector, $lo
     };
 
     $scope.playbackOptions = {
-        mode: 'instant',
+        mode: 'cumulative',
         fixed: false
     };
     
